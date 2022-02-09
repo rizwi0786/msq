@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="web development, form in html">
+     <meta name="robots"  content="FOLLOW, INDEX">
+    <title>form</title>
+</head>
+<body>
+     <h2>this is HTML form tutorial</h2>
+     <form action="backend.php">
+          
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="father">Father name:</label>
+        <div>
+            <input type="text" name="myName" id="father">
+        </div>
+        <br>
+        <label for="dob">Date of birth:</label>
+        <div>
+            <input type="date" name="myDob" id="dob">
+        </div>
+        <br>
+        <label for="roll">Roll no:</label>
+        <div>
+            <input type="text" name="myroll" id="roll">
+        </div>
+        <br>
+        <label for="reg">Reg no:</label>
+        <div>
+            <input type="text" name="myreg" id="reg">
+        </div>
+        <br>
+        <label for="sec">Section :</label>
+        <div>
+            <input type="text" name="mysec" id="sec">
+        </div>
+        <br>
+        <label for="sec1">Section@@:</label>
+        <div>
+            <select name="Section" id="sec1">
+                <option value="sel">select</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+                <option value="4">D</option>
+                <option value="5">E</option>
+                <option value="6">F</option>
+                <option value="7">G</option>
+            </select>
+        </div>
+        <br>
+        <!-- <label for="branch">Department</label> -->
+        <div>
+            Dipartment: <br> 
+           CSE <input type="radio" name="mybranch" id="branch">
+           civil <input type="radio" name="mybranch" id="branch">
+           ME <input type="radio" name="mybranch" id="branch">
+           BTE <input type="radio" name="mybranch" id="branch">
+           CHE <input type="radio" name="mybranch" id="branch">
+           ECE <input type="radio" name="mybranch" id="branch">
+           EEE <input type="radio" name="mybranch" id="branch">
+        </div>
+        <br> 
+        <label for="mob">mobile no :</label>
+        <div>
+            <input type="number" name="mymob" id="mob">
+        </div>
+        <br>
+        <label for="email">Email id(institute prefer) :</label>
+        <div>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <label for="gen">Gender :</label>
+        <div>
+           Male <input type="radio" name="mygen" id="gen">
+           Female <input type="radio" name="mygen" id="gen">
+           Other <input type="radio" name="mygen" id="gen">
+        </div>
+        <br>
+        <label for="nitd">Are you from NIT Durgapur? </label>
+        <div>
+            <input type="checkbox" name="mynitd" id="nitd" checked>
+        </div>
+        <br>
+        <label for="yourself">Write something about yourself:</label>
+        <div>
+            <textarea name="yourself" id="yourself" cols="50" rows="20"></textarea>
+        </div>
+        <br>
+        <label for="skill">choose ur most prefer slkill</label>
+        <div>
+            <select name="myskill" id="skill">
+                <option value="ply">playing</option>
+                <option value="std">studying</option>
+                <option value="cod">coding</option>
+                <option value="web">web designing</option>
+                <option value="photo">grafics designing</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset ALL">
+        </div>
+
+     </form>
+</body>
+</html>

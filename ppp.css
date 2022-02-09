@@ -1,0 +1,46 @@
+/* }
+#navbar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+/* logo img  */
+/* #logo {
+  margin: 10px 34px;
+}
+#logo div {
+  font-family: "Dancing Script", cursive;
+  font-size: 0px;
+} */
+#logo img {
+    width: 64px;
+    border-radius: 50%;
+    margin: 7px 6px;
+  }
+  /* #navbar ul {
+    display: flex;
+  }
+  #navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 236%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3;
+  }
+  #navbar ul li {
+    list-style: none;
+    font-size: 1.3em;
+  }
+  .log {
+    font-size: 1.3em;
+    width: 100px;
+    /* margin: 0px 200px; */
+  }  */

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        *{
+             box-sizing: border-box;
+             
+             padding: 0px;
+             margin: 0px;
+        }
+        body{
+            background-color: #eaa1e3;
+        }
+         .container{
+             background-color: #d0c5b7;; 
+             border: 3px solid #7a0a84;
+            padding: 79px;/*it work for charo side padding*/
+
+          /*  padding-bottom: 79px;   /*padding by side wise//
+            padding-bottom: 79px;
+            padding-left: 34px;
+            padding-right: 34px;*/
+
+
+            /* padding: 30px 56px 10px 78px; */
+            /* padding: top right bottom left*/ 
+
+            /* padding y(top/bottom) x(left right); */
+            padding: 34px 20px;
+             margin: 11px;/*all thing same as padding*/
+               border-top-right-radius: 20px;
+               border-bottom-left-radius: 20px; 
+
+             width:  323px;
+            
+         }
+         #First{
+             font-style: italic;
+            color: #bf0f0f; 
+             
+         }
+         #Second{
+             font-style:oblique;
+            color: #3a7907; 
+             
+         }
+         #Third{
+             font-style:normal;
+            color: #1e618e; 
+             
+         }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <h2>This is my heading</h2>
+        <p id="First">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quas nulla repudiandae tempore ratione quibusdam unde odio repellat enim, doloribus exercitationem error nostrum! Earum quis quidem quia hic quibusdam asperiores.</p>
+     </div>
+     <div class="container">
+        <h2>This is my heading</h2>
+        <p id="Second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quas nulla repudiandae tempore ratione quibusdam unde odio repellat enim, doloribus exercitationem error nostrum! Earum quis quidem quia hic quibusdam asperiores.</p>
+     </div>
+     <div class="container">
+        <h2>This is my heading</h2>
+        <p id="Third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quas nulla repudiandae tempore ratione quibusdam unde odio repellat enim, doloribus exercitationem error nostrum! Earum quis quidem quia hic quibusdam asperiores.</p>
+     </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                                                                                                                                                                                                                                                                                                                                             
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selector</title>
+</head>
+<style>
+    h1{
+        background-color: cornflowerblue;
+        color: cornsilk;
+        font-weight: bold;
+        text-align: center;
+    }
+    /* any p inside the div  */
+    /* div p{
+        color: burlywood;
+        background-color: crimson;
+        font-weight: bold;
+    } */
+    /* for any p inside li inside div  */
+    /* div li p{
+        color: black;
+        background-color: coral;
+        font-size: 12px;
+    } */
+
+    /* for just inside  */
+    /* div>p{
+        color: black;
+        background-color: coral;
+    } */
+    /* for just prev sibling div  */
+    div + p{
+        color: black;
+        background-color: coral;
+    }
+</style>
+<body>
+      <h1>This is more on selector</h1>
+      <div class="container">
+          <div class="row">
+              <p>!sttttttnkjgvufyd65dgvyuf</p>
+              <ul>
+                  <li class="item"><p>This is inner paragraph</p></li>
+                  <li>This is a paragraph</li>
+              </ul>
+            </div>
+            <p>This is another `  paragraph</p>
+      </div>
+      <p>this is outer paragraph </p>
+</body>
+</html>

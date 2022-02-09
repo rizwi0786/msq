@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframe and animation</title>
+</head>
+<style>
+    .container{
+        background-color: green;
+
+    }
+    .box{
+        background-color: greenyellow;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        /* animation-name: ms1; */
+        /* animation: ms2 8s 2s 4 reverse alternate; */
+        animation-name: ms2;
+        animation-duration: 8s;
+        /* animation-fill-mode: alternate;
+        animation-timing-function: ease-in; */
+        animation-iteration-count: 4;
+        /* animation-direction: normal; */
+
+    }
+    @keyframes ms1{
+        from{
+            width: 200px;
+
+        }
+        to{
+            width: 800px;
+        }
+    }
+    @keyframes ms2{
+        0%{
+            top: 0px;
+            left: 0px;
+            
+        }
+        25%{
+            top: 250px;
+            left: 0px;
+
+        }
+        75%{
+            top: 250px;
+            left: 250px;
+
+        }
+        100%{
+            top: 0px;
+            left: 250px;
+
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">this is box</div>
+    </div>
+</body>
+</html>

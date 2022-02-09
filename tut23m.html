@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevigation bar aaaaaa</title>
+    <style>
+        body{
+            background-color: chocolate;
+        }
+        .navbar{
+            background-color: crimson;
+            border-radius: 30px;
+        }
+        .navbar li{
+            float: left;
+            list-style:none;
+            margin: 15px 17px;
+
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li a{
+            text-decoration: none;
+            padding: 7px 4px;
+            color: cyan;
+            font-family: cursive;
+        }
+        .navbar li a:hover{
+            color: darkmagenta;
+            background-color: darkorange;
+            border-bottom-left-radius: 7px;
+            border-top-right-radius: 7px;
+        }
+        .search{
+            float: right;
+            padding: 15px 44px;
+            color: darkred;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 6px 27px;
+            width: 177px;
+        }
+        h1{
+            color: cadetblue;
+            background-color: cornsilk;
+            font-style: italic;
+            font-size:50px;
+            border: 2px solid red;
+            border-bottom-left-radius: 40px;
+            border-top-right-radius: 40px;
+            margin-bottom: 2px;
+            padding-left: 372px;
+            padding-top: 35px;
+            height: 100px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rosybrown;
+
+        }
+        .container1{
+               border: 3px solid blue;
+               width: 1200px;
+               margin: 12px auto;
+               background-color:cadetblue;
+               padding-left: 12px;
+        }
+        .item{
+            border: 2px solid red;
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 12px;
+            margin: 10px 3px;
+            padding: 15px 3px;
+            background-color: sienna;
+            font-family: cursive;
+        }
+        #fruits{
+            float: left;
+            width: 32%;
+        }
+        #stationary{
+            float: left;
+            width: 32%;
+        }
+        #Computer{
+            float: left;
+            width: 32%;
+        }
+        #grocery{
+            /* float: left;
+            width: 33%; */
+            clear: left;
+        }
+        #glass{
+            /* float: left;
+            width: 33%; */
+            clear: both;
+        }
+        p, h3{
+            text-align: center;
+        }
+        h2{
+            margin: auto;
+            width: 414px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Service</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#"> Contact Us</a></li>
+               <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search this website">
+            </div>
+           </ul>
+        </nav>
+    </header>
+    <h1>WELCOME TO MY STORE</h1>
+    <div class="container1">
+        <h2>Let's see product</h2>
+        <div id="fruits" class="item">
+             <h2>Fruits</h2>
+             <p id="fruitspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dolores, iure praesentium aut quasi placeat consectetur accusamus. Eaque eveniet voluptatem aliquid saepe velit adipisci molestiae impedit, illum corporis porro voluptatum ducimus, inventore sequi repudiandae vero autem! Accusamus inventore aliquam sint praesentium enim, animi maiores ducimus?</p>
+        </div>
+        <div id="Computer" class="item">
+             <h2>Computer</h2>
+             <p id="Computerpara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dolores, iure praesentium aut quasi placeat consectetur accusamus. Eaque eveniet voluptatem aliquid saepe velit adipisci molestiae impedit, illum corporis porro voluptatum ducimus, inventore sequi repudiandae vero autem! Accusamus inventore aliquam sint praesentium enim, animi maiores ducimus?</p>
+        </div>
+        <div id="stationary" class="item">
+             <h2>Stationary</h2>
+             <p id="stationarypara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dolores, iure praesentium aut quasi placeat consectetur accusamus. Eaque eveniet voluptatem aliquid saepe velit adipisci molestiae impedit, illum corporis porro voluptatum ducimus, inventore sequi repudiandae vero autem! Accusamus inventore aliquam sint praesentium enim, animi maiores ducimus?</p>
+        </div>
+        <div id="grocery" class="item">
+             <h2>Grocery</h2>
+             <p id="grocerypara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dolores, iure praesentium aut quasi placeat consectetur accusamus. Eaque eveniet voluptatem aliquid saepe velit adipisci molestiae impedit, illum corporis porro voluptatum ducimus, inventore sequi repudiandae vero autem! Accusamus inventore aliquam sint praesentium enim, animi maiores ducimus?</p>
+        </div>
+        <div id="glass" class="item">
+             <h2>Glass</h2>
+             <p id="glasspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dolores, iure praesentium aut quasi placeat consectetur accusamus. Eaque eveniet voluptatem aliquid saepe velit adipisci molestiae impedit, illum corporis porro voluptatum ducimus, inventore sequi repudiandae vero autem! Accusamus inventore aliquam sint praesentium enim, animi maiores ducimus?</p>
+        </div>
+    </div>
+</body>
+</html>

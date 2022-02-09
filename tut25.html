@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        *{
+            background-color: coral;
+        }
+        .container{
+            border: 2px solid black;
+            background-color: burlywood;
+            height: 4450px;
+        }
+        .box{
+            border: 2px solid royalblue;
+            display: inline-block;
+            width: 140px;
+            height: 140px;
+            margin: 5px;
+        }
+        #box3{
+            position: relative;
+            top: 40px;
+            left: 50px;
+        }
+        #box1{
+            position: sticky;
+            top: 5px;
+        }
+        #box5{
+            position: fixed;
+            right: 4px;
+            bottom: 2px;
+        }
+        #box2{
+            position: absolute;
+            top: 158px;
+            left: 9px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1 sticky</div>
+        <div class="box" id="box2">2 absolute</div>
+        <div class="box" id="box3">3 relative</div>
+        <div class="box" id="box4">4 none</div>
+        <div class="box" id="box5">5 fixed</div>
+    </div>
+</body>
+</html>

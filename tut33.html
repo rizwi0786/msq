@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after psuedo selector</title>
+</head>
+<style>
+   body{
+       background-color: black;
+       color: white;
+       margin: 0px;
+       padding: 0px;
+    }
+    header::before{
+       background:url('https://source.unsplash.com/random')no-repeat center center/cover ;
+       content: "";
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       z-index: -1;
+       top: 0;
+       left: 0;
+       opacity: 0.3;
+   }
+   .navigation{
+       display: flex;
+   }
+   section{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin: 4px 25px;
+       justify-content: center;
+      
+       height: 340px;
+   }
+   li{
+       list-style: none;
+       margin: 15px;
+       padding: 2px;
+       font-size: 25px;
+   }
+   h2{
+       font-size: 4em;
+       font-family: cursive;
+   }
+   p{
+       font-size: 14px;
+   }
+
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">home</li>
+                <li class="item">about</li>
+                <li class="item">services</li>
+                <li class="item">contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Welcome to coding world</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iure laudantium at repudiandae laboriosam. Nulla, et optio! Consequatur consectetur dolorem eligendi pariatur tempora, a esse minima atque quibusdam ipsum recusandae ex, libero earum debitis.</p>
+    </section>
+</body>
+</html>
